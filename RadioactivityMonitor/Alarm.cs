@@ -14,8 +14,8 @@ namespace RadioactivityMonitor
         //Sensor _sensor = new Sensor();
         private ISensor _sensor;
 
-        bool _alarmOn = false;
-        private long _alarmCount = 0;
+        public bool AlarmOn { get; private set; } = false;
+        public long AlarmCount { get; private set; } = 0;
 
         public Alarm(ISensor sensor)
         {
@@ -25,17 +25,17 @@ namespace RadioactivityMonitor
         {
             double value = _sensor.NextMeasure();
 
-            if (value < LowThreshold | HighThreshold < value)
+            if (value < LowThreshold || HighThreshold < value)
             {
-                _alarmOn = true;
-                _alarmCount += 1;
+                AlarmOn = true;
+                AlarmCount += 1;
             }
         }
 
-        public bool AlarmOn
-        {
-            get { return _alarmOn; }
-        }
+        //public bool AlarmOn
+        //{
+        //    get { return _alarmOn; }
+        //}
     }
 
 }

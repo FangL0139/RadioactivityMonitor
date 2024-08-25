@@ -8,11 +8,14 @@ namespace RadioactivityMonitor.Tests
 {
     public static class TestConstants
     {
-        // Thresholds for the Alarm class
+        //Value outside of Thresholds for the Alarm class
         public const double LowerThreshold = 16.0;
         public const double HigherThreshold = 22.0;
 
-        // Offset for the Sensor class
+        //Value within Thresholds for the Alarm class
         public const double BetweenThreshold = 19.0;
+
+        //Value within Thresholds for the Alarm class
+        public const long AlarmCheckCount = 2L;
     }
 }
