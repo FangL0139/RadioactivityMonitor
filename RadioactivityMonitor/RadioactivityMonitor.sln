@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactivityMonitor", "RadioactivityMonitor.csproj", "{244E1F85-EC46-4409-B106-86B5ADD7DC6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioactivityMonitor", "RadioactivityMonitor.csproj", "{244E1F85-EC46-4409-B106-86B5ADD7DC6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactivityMonitor.Tests", "..\RadioactivityMonitor.Tests\RadioactivityMonitor.Tests.csproj", "{0518EE4D-B043-4EF7-BA77-F96B380D2C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioactivityMonitor.Tests", "..\RadioactivityMonitor.Tests\RadioactivityMonitor.Tests.csproj", "{0518EE4D-B043-4EF7-BA77-F96B380D2C67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E8B0FDD-9B94-4903-8E11-68F27F445135}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
