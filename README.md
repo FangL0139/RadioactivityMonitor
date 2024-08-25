@@ -8,8 +8,7 @@ This will compile all projects in the solution, including the main application a
 
 Running Unit Tests
 1. Open Test Explorer:
-
 Go to Test > Test Explorer to open the Test Explorer window.
-2. Run All Tests:
 
+2. Run All Tests:
 Click Run All in the Test Explorer to run all unit tests.
