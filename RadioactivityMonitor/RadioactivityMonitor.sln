@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactivityMonitor", "RadioactivityMonitor.csproj", "{244E1F85-EC46-4409-B106-86B5ADD7DC6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactivityMonitor.Tests", "..\RadioactivityMonitor.Tests\RadioactivityMonitor.Tests.csproj", "{0518EE4D-B043-4EF7-BA77-F96B380D2C67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{244E1F85-EC46-4409-B106-86B5ADD7DC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244E1F85-EC46-4409-B106-86B5ADD7DC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244E1F85-EC46-4409-B106-86B5ADD7DC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244E1F85-EC46-4409-B106-86B5ADD7DC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0518EE4D-B043-4EF7-BA77-F96B380D2C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0518EE4D-B043-4EF7-BA77-F96B380D2C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0518EE4D-B043-4EF7-BA77-F96B380D2C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0518EE4D-B043-4EF7-BA77-F96B380D2C67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50927E65-2401-4463-9DA8-098A687937BF}
+	EndGlobalSection
+EndGlobal
